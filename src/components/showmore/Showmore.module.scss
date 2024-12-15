@@ -1,0 +1,23 @@
+.showmore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  width: 100%;
+  height: 50px;
+  background: #2196F3;
+  border: 1px solid #2196F3;
+  color: #fff;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  transition: all 0.5s;
+
+  &:hover {
+    background: #fff;
+    color: #4A4A4A;
+    border-color: rgb(223, 229, 236);
+  }
+}

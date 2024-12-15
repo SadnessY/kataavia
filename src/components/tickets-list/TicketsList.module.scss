@@ -1,0 +1,16 @@
+.tickets-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.tickets-container {
+  flex: 1 1 auto;
+}
+
+.indicator {
+  margin-bottom: 10px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
